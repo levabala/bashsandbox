@@ -30,3 +30,5 @@ do
   echo -e $s > "$fileIndex.lines"
   echo "write file $fileIndex"
 done
+
+echo "done"
