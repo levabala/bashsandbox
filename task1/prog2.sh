@@ -14,3 +14,5 @@ echo -e "${lines::-1}" > "unsorted"
 s=$(sort -g unsorted | uniq)
 
 echo -e "$s" > "sorted"
+
+echo "done"
